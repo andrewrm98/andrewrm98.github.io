@@ -1,0 +1,81 @@
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .center-height {
+        display: flex;
+        align-items: center;
+    }
+
+    .mainFormat {
+        margin-top: 25px;
+    }
+
+    .border {
+        border: 10px solid black;
+    }
+
+    .no-padding {
+        padding: 0px;
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .parallax-city {
+        /* The image used */
+        background-image: url("../images/architecture-buildings-city-442579.jpg");
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax-code {
+        /* The image used */
+        background-image: url("../images/navy.jpg");
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax-nature {
+        /* The image used */
+        background-image: url("../images/polygons.jpg");
+    
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .box {
+        margin: 30px;
+        border-radius: 15px;
+    }
+
+    .padding-1 {
+        margin: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+    }
